@@ -13,10 +13,13 @@
 		4352CF092919341700639E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4352CF072919341700639E4D /* Main.storyboard */; };
 		4352CF0B2919341800639E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4352CF0A2919341800639E4D /* Assets.xcassets */; };
 		4352CF0E2919341800639E4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4352CF0C2919341800639E4D /* LaunchScreen.storyboard */; };
+		4352CF16291934DE00639E4D /* QAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4352CF15291934DE00639E4D /* QAViewController.swift */; };
+		4352CF18291934F000639E4D /* GradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4352CF17291934F000639E4D /* GradeViewController.swift */; };
+		4352CF1A2919373C00639E4D /* QAModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4352CF192919373C00639E4D /* QAModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4352CEFE2919341700639E4D /* Icepopo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Icepopo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4352CEFE2919341700639E4D /* AboutMaYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMaYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4352CF012919341700639E4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4352CF032919341700639E4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4352CF052919341700639E4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		4352CF0A2919341800639E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4352CF0D2919341800639E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4352CF0F2919341800639E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4352CF15291934DE00639E4D /* QAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAViewController.swift; sourceTree = "<group>"; };
+		4352CF17291934F000639E4D /* GradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeViewController.swift; sourceTree = "<group>"; };
+		4352CF192919373C00639E4D /* QAModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +54,7 @@
 		4352CEFF2919341700639E4D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4352CEFE2919341700639E4D /* Icepopo.app */,
+				4352CEFE2919341700639E4D /* AboutMaYu.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +64,11 @@
 			children = (
 				4352CF012919341700639E4D /* AppDelegate.swift */,
 				4352CF032919341700639E4D /* SceneDelegate.swift */,
+				4352CF192919373C00639E4D /* QAModel.swift */,
 				4352CF052919341700639E4D /* ViewController.swift */,
 				4352CF072919341700639E4D /* Main.storyboard */,
+				4352CF15291934DE00639E4D /* QAViewController.swift */,
+				4352CF17291934F000639E4D /* GradeViewController.swift */,
 				4352CF0A2919341800639E4D /* Assets.xcassets */,
 				4352CF0C2919341800639E4D /* LaunchScreen.storyboard */,
 				4352CF0F2919341800639E4D /* Info.plist */,
@@ -70,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4352CEFD2919341700639E4D /* Icepopo */ = {
+		4352CEFD2919341700639E4D /* AboutMaYu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4352CF122919341800639E4D /* Build configuration list for PBXNativeTarget "Icepopo" */;
+			buildConfigurationList = 4352CF122919341800639E4D /* Build configuration list for PBXNativeTarget "AboutMaYu" */;
 			buildPhases = (
 				4352CEFA2919341700639E4D /* Sources */,
 				4352CEFB2919341700639E4D /* Frameworks */,
@@ -82,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = Icepopo;
+			name = AboutMaYu;
 			productName = Icepopo;
-			productReference = 4352CEFE2919341700639E4D /* Icepopo.app */;
+			productReference = 4352CEFE2919341700639E4D /* AboutMaYu.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4352CEF92919341700639E4D /* Build configuration list for PBXProject "Icepopo" */;
+			buildConfigurationList = 4352CEF92919341700639E4D /* Build configuration list for PBXProject "AboutMaYu" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4352CEFD2919341700639E4D /* Icepopo */,
+				4352CEFD2919341700639E4D /* AboutMaYu */,
 			);
 		};
 /* End PBXProject section */
@@ -140,7 +149,10 @@
 			files = (
 				4352CF062919341700639E4D /* ViewController.swift in Sources */,
 				4352CF022919341700639E4D /* AppDelegate.swift in Sources */,
+				4352CF16291934DE00639E4D /* QAViewController.swift in Sources */,
+				4352CF1A2919373C00639E4D /* QAModel.swift in Sources */,
 				4352CF042919341700639E4D /* SceneDelegate.swift in Sources */,
+				4352CF18291934F000639E4D /* GradeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +307,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +336,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4352CEF92919341700639E4D /* Build configuration list for PBXProject "Icepopo" */ = {
+		4352CEF92919341700639E4D /* Build configuration list for PBXProject "AboutMaYu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4352CF102919341800639E4D /* Debug */,
@@ -348,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4352CF122919341800639E4D /* Build configuration list for PBXNativeTarget "Icepopo" */ = {
+		4352CF122919341800639E4D /* Build configuration list for PBXNativeTarget "AboutMaYu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4352CF132919341800639E4D /* Debug */,
